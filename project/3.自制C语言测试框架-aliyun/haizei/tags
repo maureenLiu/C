@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLUE	test.h	/^#define BLUE(/;"	d
+BLUE_HL	test.h	/^#define BLUE_HL(/;"	d
+CORLOR	test.h	/^#define CORLOR(/;"	d
+CORLOR_HL	test.h	/^#define CORLOR_HL(/;"	d
+EXPECT	test.h	/^#define EXPECT(/;"	d
+EXPECT_EQ	test.h	/^#define EXPECT_EQ(/;"	d
+EXPECT_GE	test.h	/^#define EXPECT_GE(/;"	d
+EXPECT_GT	test.h	/^#define EXPECT_GT(/;"	d
+EXPECT_LE	test.h	/^#define EXPECT_LE(/;"	d
+EXPECT_LT	test.h	/^#define EXPECT_LT(/;"	d
+EXPECT_NE	test.h	/^#define EXPECT_NE(/;"	d
+Function	test.h	/^typedef struct Function { \/\/记录函数信息$/;"	s
+Function	test.h	/^} Function;$/;"	t	typeref:struct:Function
+FunctionInfo	test.h	/^struct FunctionInfo { $/;"	s
+GREEN	test.h	/^#define GREEN(/;"	d
+GREEN_HL	test.h	/^#define GREEN_HL(/;"	d
+P	test.h	/^#define P(/;"	d
+RED	test.h	/^#define RED(/;"	d
+RED_HL	test.h	/^#define RED_HL(/;"	d
+RUN_ALL_TESTS	test.cc	/^int RUN_ALL_TESTS() {$/;"	f
+TEST	test.h	/^#define TEST(/;"	d
+TYPE	test.h	/^#define TYPE(/;"	d
+TestFunc	test.h	/^typedef void (*TestFunc)(); \/\/TestFunc被提升为函数指针类型$/;"	t
+YELLOW	test.h	/^#define YELLOW(/;"	d
+YELLOW_HL	test.h	/^#define YELLOW_HL(/;"	d
+_TEST_H	test.h	/^#define _TEST_H$/;"	d
+add_function	test.cc	/^void add_function(TestFunc func, const char *str) {$/;"	f
+func	test.h	/^    TestFunc func;$/;"	m	struct:Function
+func_arr	test.cc	/^Function func_arr[100];\/\/函数类型的数组$/;"	v
+func_cnt	test.cc	/^int func_cnt = 0; \/\/记录函数的个数$/;"	v
+haizei_test_info	test.cc	/^struct FunctionInfo haizei_test_info; \/\/将变量定义放在源文件中，而将声明放在头文件中使用extern修饰，以避免重复定义$/;"	v	typeref:struct:FunctionInfo
+str	test.h	/^    const char *str;$/;"	m	struct:Function
+success	test.h	/^    int success;$/;"	m	struct:FunctionInfo
+total	test.h	/^    int total;$/;"	m	struct:FunctionInfo
